@@ -1,11 +1,11 @@
 一、说明
 
-    1、本仓库使用P3TERX大神脚本编译OpenWrt固件，对少许代码做了修改，并且根据自己需求集成了常用的软件包，没有多余插件。
+    1、https://github.com/2286927/Build_CM520_OpenWrt_AdGuardHome 作為模板
 
-    2、本仓库目前加入的设备有：CanBox(CM520-79F)。
+    2、設備：CanBox(CM520-79F)。
     
-    3、
-
+    3、沒有插件
+    
 二、固件特点
 
     1、固件默认IP：192.168.120.1，默认用户名：root，密码：password。
