@@ -17,4 +17,4 @@ sed -i 's/root:.*:0:0:99999:7:::/root::0:0:99999:7:::/g' package/base-files/file
 #sed -i 's/PKG_VERSION:=.*/PKG_VERSION:=1.8.4/g' feeds/packages/net/zerotier/Makefile
 #rm -rf feeds/small/v2ray-core
 # 修改 argon 为默认主题,不再集成luci-theme-bootstrap主题
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
