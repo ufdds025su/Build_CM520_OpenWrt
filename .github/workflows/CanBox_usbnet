@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build_CanBox_usbnet
+name: CanBox_usbnet
 
 on:
   repository_dispatch:
