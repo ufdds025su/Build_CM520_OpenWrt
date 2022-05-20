@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build_CanBox_test_lede
+name: Build_CanBox_test_X-WRT
 
 on:
   repository_dispatch:
