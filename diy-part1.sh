@@ -11,7 +11,7 @@
 #
 
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.120.1/g' package/base-files/files/bin/config_generate
@@ -26,8 +26,8 @@ sed -i 's/root::0:0:99999:7:::/root::0:0:99999:7:::/g' package/base-files/files/
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
 
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 
 #git clone https://github.com/kiddin9/openwrt-packages.git package/kiddin9
 #git clone https://github.com/NueXini/NueXini_Packages.git package/NueXini
