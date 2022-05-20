@@ -30,7 +30,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 21.02
+  REPO_BRANCH: 21.03
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Config_Files/CanBox_test.config
   DIY_P1_SH: diy-part1.sh
@@ -43,7 +43,7 @@ env:
   TZ: Asia/Taipei
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
