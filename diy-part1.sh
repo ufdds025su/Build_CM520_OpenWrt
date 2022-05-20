@@ -11,7 +11,7 @@
 #
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.120.1/g' package/base-files/files/bin/config_generate
