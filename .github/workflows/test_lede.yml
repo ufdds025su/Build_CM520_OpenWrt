@@ -23,8 +23,8 @@ on:
       - master
     paths:
       - 'Config_Files/CanBox_test.config'
-  schedule:
-    - cron: 0 2 * * 5
+  #schedule:
+  #  - cron: 0 2 * * 5
   watch:
     types: started
 
